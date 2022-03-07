@@ -1,0 +1,16 @@
+{
+  "restaurants" : [
+    {
+      "id" : "1",
+      "name" : "KFC restaurant",
+      "address" : "noida sector 50",
+      "email" : "kfc@test.com"
+    },
+    {
+      "id" : "2",
+      "name" : "Ruchi's restaurant",
+      "address" : "Sant-Louis sector 20",
+      "email" : "ruchi@test.com"
+    }
+  ]
+}

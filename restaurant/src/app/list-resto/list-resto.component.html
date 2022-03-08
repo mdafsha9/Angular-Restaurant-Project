@@ -1,1 +1,20 @@
-<h1>list-resto works!</h1>
+
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Name</th>
+      <th scope="col">Address</th>
+      <th scope="col">Email</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let collection of collections">
+      <td>{{collection.id}}</td>
+      <td>{{collection.name}}</td>
+      <td>{{collection.address}}</td>
+      <td>{{collection.email}}</td>
+    </tr>
+  </tbody>
+</table>

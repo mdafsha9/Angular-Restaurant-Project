@@ -5,9 +5,13 @@ import {HttpClient} from '@angular/common/http';
   providedIn: 'root'
 })
 export class RestoService {
-  url="http://localhost:4000/restaurants";
+  url:any ="http://localhost:4000/restaurants";
   constructor(private http : HttpClient) { }
   getList(){
     return this.http.get(this.url);
+  }
+
+  saveResto(data:any){
+    return this.http.post(this.url.data);
   }
 }

@@ -29,6 +29,12 @@
       "name": "Chinnes restaurant",
       "address": "Warrensburgh sector 30",
       "email": "chinnes@test.com"
+    },
+    {
+      "id": "6",
+      "name": "Pizza Hut restaurant",
+      "address": "Kentakky sector 30",
+      "email": "pizzahut@test.com"
     }
   ]
 }
